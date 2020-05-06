@@ -12,7 +12,7 @@ $(document).ready(function(){
         {
             label: 'Blue',
             data: [[1,20], [2,90], [3,60], [4,40], [5,100], [6,25], [7,65]],
-            color: '#0553A1'
+            color: '#17C2D7'
         },
         {
             label: 'Amber',
