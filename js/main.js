@@ -2,6 +2,9 @@ $(window).on('load', function(){
 	
 	new WOW().init();
 	
+	var today=(moment().format('LL'));
+	$('.today').text(today);
+	
 //	custom day time picker
 	$('#daily_date').on('change', function(){
 		var dated=$(this).val();
