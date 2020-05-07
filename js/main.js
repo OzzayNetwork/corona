@@ -213,6 +213,29 @@ $(window).on('load', function(){
 });
 
 
+$(document).ready( function() {
+    /* Check width on page load*/
+    if ( $(window).width() < 514) {
+     $('.px-sm-0').removeClass('px-5');
+    }
+    else {
+		 $('.px-sm-0').addClass('px-5');
+		
+	}
+ });
+
+ $(window).resize(function() {
+    /*If browser resized, check width again */
+     if ( $(window).width() < 514) {
+     $('.pxx-0').removeClass('px-5');
+    }
+    else {
+		 $('.pxx-0').addClass('px-5');
+		
+	}
+ });
+
+
 //owl initializer
 $(document).ready(function(){
 
