@@ -14615,4 +14615,16 @@ td .badge{
 strong{
 	font-weight: 800 !important;
 }
+.logs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	padding-bottom: 50px;
+	flex-wrap: wrap;
+}
+.logs img{
+	width: 150px;
+    margin: 25px;
+}
 
